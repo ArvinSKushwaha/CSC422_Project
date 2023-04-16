@@ -1,0 +1,5 @@
+ModelNet10/
+**/__pycache__
+**/*.egg-info/
+.python-version
+model_history/

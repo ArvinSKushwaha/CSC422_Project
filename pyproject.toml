@@ -1,0 +1,19 @@
+[project]
+name = "obj_classify"
+version = "0.0.0"
+keywords = ["Machine Learning"]
+description = "Trains a model to classify meshes"
+dependencies = [
+    "numpy==1.23.5",
+    "pytorch3d==0.7.3",
+    "torch==2.0.0",
+    "torchaudio==2.0.1",
+    "torchvision==0.15.1",
+]
+
+[[project.authors]]
+name = "Arvin Kushwaha"
+email = "arvin.singh.kushwaha@gmail.com"
+
+[tool.setuptools]
+packages = ["obj_classify"]
